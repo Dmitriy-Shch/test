@@ -11,6 +11,7 @@ public class Mage {
 
     String getInfo() {
         return name + "," + level + "," + damage + "," + type;
+        return name + "," + level + "," + damage + "," + type;
     }
 
     String fight(Mage mage) {
